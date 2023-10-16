@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="b4f6726897b131103e2479100153af3e" sys_domain="global" table="x_970489_hospital_patient_record" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-07 10:42:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>45f63e6897b131103e2479100153af38</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_970489_hospital_patient_record" name="x_970489_hospital_patient_record" sys_domain="global" view="Default view">b4f6726897b131103e2479100153af3e</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_970489_hospital_patient_record" sys_domain="global" view="Default view">89f63e6897b131103e2479100153af34</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-07 10:42:42</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-07 10:52:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1f397ee897b131103e2479100153af55</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_970489_hospital_patient_record" name="x_970489_hospital_patient_record" sys_domain="global" view="Default view">b4f6726897b131103e2479100153af3e</sys_ui_form>
+            <sys_ui_section caption="Contact Details" display_value="Contact Details" name="x_970489_hospital_patient_record" sys_domain="global" view="Default view">5f393ee897b131103e2479100153afb8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-07 10:52:42</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-07 10:42:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>41f63e6897b131103e2479100153af34</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_970489_hospital_patient_record" name="x_970489_hospital_patient_record" sys_domain="global" view="Default view">b4f6726897b131103e2479100153af3e</sys_ui_form>
+            <sys_ui_section caption="Patient Appointment Details" display_value="Patient Appointment Details" name="x_970489_hospital_patient_record" sys_domain="global" view="Default view">8df63e6897b131103e2479100153af2f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-16 12:01:42</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-07 10:52:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d7397ee897b131103e2479100153af61</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_970489_hospital_patient_record" name="x_970489_hospital_patient_record" sys_domain="global" view="Default view">b4f6726897b131103e2479100153af3e</sys_ui_form>
+            <sys_ui_section caption="(Filled by doctor)" display_value="(Filled by doctor)" name="x_970489_hospital_patient_record" sys_domain="global" view="Default view">d3397ee897b131103e2479100153af53</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-16 12:01:42</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_970489_hospital_patient_record</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-07 10:42:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b4f6726897b131103e2479100153af3e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_970489_hospital_patient_record</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Hospital management" source="x_970489_hospital">76f08d82976131103e2479100153afe6</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Hospital management">76f08d82976131103e2479100153afe6</sys_scope>
+            <sys_update_name>sys_ui_form_sections_b4f6726897b131103e2479100153af3e</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-07 10:42:41</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>
