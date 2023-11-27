@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="c3b4bb6097d231103e2479100153af26" sys_domain="global" table="x_970489_hospital_reliance_digital" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-11-03 07:39:51</sys_created_on>
+            <sys_id>bd0059dd971231103e2479100153af1e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_970489_hospital_reliance_digital" sys_domain="global" view="Default view">c3b4bb6097d231103e2479100153af26</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-11-03 07:39:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>bestprice_id</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-11-03 07:39:51</sys_created_on>
+            <sys_id>310059dd971231103e2479100153af1f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_970489_hospital_reliance_digital" sys_domain="global" view="Default view">c3b4bb6097d231103e2479100153af26</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-11-03 07:39:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>title</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-11-03 07:39:51</sys_created_on>
+            <sys_id>b10059dd971231103e2479100153af1f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_970489_hospital_reliance_digital" sys_domain="global" view="Default view">c3b4bb6097d231103e2479100153af26</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-11-03 07:39:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-11-03 07:39:51</sys_created_on>
+            <sys_id>350059dd971231103e2479100153af1f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_970489_hospital_reliance_digital" sys_domain="global" view="Default view">c3b4bb6097d231103e2479100153af26</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-11-03 07:39:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>comments</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-11-03 07:39:51</sys_created_on>
+            <sys_id>b50059dd971231103e2479100153af1f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_970489_hospital_reliance_digital" sys_domain="global" view="Default view">c3b4bb6097d231103e2479100153af26</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-11-03 07:39:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_970489_hospital_reliance_digital</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-11-01 11:44:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c3b4bb6097d231103e2479100153af26</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_970489_hospital_reliance_digital</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Hospital management" source="x_970489_hospital">76f08d82976131103e2479100153afe6</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Hospital management">76f08d82976131103e2479100153afe6</sys_scope>
+            <sys_update_name>sys_ui_section_c3b4bb6097d231103e2479100153af26</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-11-01 11:44:02</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

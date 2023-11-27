@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Hospital management">1935c58697a131103e2479100153af49</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Admission Infos</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_970489_hospital_admission_info</name>
+        <order>100</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_970489_hospital.Administration</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-06 10:50:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b13f2d10973531103e2479100153af14</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Admission info</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Hospital management" source="x_970489_hospital">76f08d82976131103e2479100153afe6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hospital management">76f08d82976131103e2479100153afe6</sys_scope>
+        <sys_update_name>sys_app_module_b13f2d10973531103e2479100153af14</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-02 09:55:51</sys_updated_on>
+        <timeline_page/>
+        <title>Admission info</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

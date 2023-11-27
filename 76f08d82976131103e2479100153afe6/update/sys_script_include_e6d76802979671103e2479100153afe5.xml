@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_970489_hospital.DemoTest</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>DemoTest</name>
+        <script><![CDATA[function DemoTest(a,b){
+	
+	//gs.addInfoMessage("username "+gs.getUserName());
+	//gs.addInfoMessage(gs.getUserDisplayName());
+	var gr=new GlideRecord("incident");
+	gr.addQuery("short description is"+gr.short_description);
+	gr.query();
+	while(gr.next()){
+		gs.info("description"+gr.short_description);
+	}
+	
+	c=a +b;
+	gs.info("the addition is" + a + " + " +  b + " is "+c);
+} ]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-05 12:53:49</sys_created_on>
+        <sys_id>e6d76802979671103e2479100153afe5</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>DemoTest</sys_name>
+        <sys_package display_value="Hospital management" source="x_970489_hospital">76f08d82976131103e2479100153afe6</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Hospital management">76f08d82976131103e2479100153afe6</sys_scope>
+        <sys_update_name>sys_script_include_e6d76802979671103e2479100153afe5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-05 13:10:47</sys_updated_on>
+    </sys_script_include>
+</record_update>

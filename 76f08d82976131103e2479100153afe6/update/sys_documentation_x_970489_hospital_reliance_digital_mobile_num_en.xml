@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="mobile_num" label="Mobile num" language="en" table="x_970489_hospital_reliance_digital">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>mobile_num</element>
+            <help/>
+            <hint/>
+            <label>Mobile num</label>
+            <language>en</language>
+            <name>x_970489_hospital_reliance_digital</name>
+            <plural>Mobile nums</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-11-01 11:43:01</sys_created_on>
+            <sys_id>d084bb6097d231103e2479100153af14</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Mobile num</sys_name>
+            <sys_package display_value="Hospital management" source="x_970489_hospital">76f08d82976131103e2479100153afe6</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Hospital management">76f08d82976131103e2479100153afe6</sys_scope>
+            <sys_update_name>sys_documentation_x_970489_hospital_reliance_digital_mobile_num_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-11-01 11:43:01</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

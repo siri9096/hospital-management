@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>true</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_970489_hospital_patient_record</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_970489_hospital_patient_record">symptomsLIKEStomach pain^ORsymptomsLIKEViral Fever^ORsymptomsLIKEFever^ORsymptomsLIKEAppendicities^EQ<item endquery="false" field="symptoms" goto="false" newquery="false" operator="LIKE" or="false" value="Stomach pain"/>
+            <item endquery="false" field="symptoms" goto="false" newquery="false" operator="LIKE" or="true" value="Viral Fever"/>
+            <item endquery="false" field="symptoms" goto="false" newquery="false" operator="LIKE" or="true" value="Fever"/>
+            <item endquery="false" field="symptoms" goto="false" newquery="false" operator="LIKE" or="true" value="Appendicities"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message><![CDATA[<p>&#34;This case is assigned to &#34;General Physician&#34;&#34;</p>]]></message>
+        <name>Assigned team to General</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-09 12:46:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f73f095b971631103e2479100153af1f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Assigned team to General</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Hospital management" source="x_970489_hospital">76f08d82976131103e2479100153afe6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hospital management">76f08d82976131103e2479100153afe6</sys_scope>
+        <sys_update_name>sys_script_f73f095b971631103e2479100153af1f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-09 12:46:26</sys_updated_on>
+        <template>assigned_team=c0109265973531103e2479100153af03^EQ</template>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=f73f095b971631103e2479100153af1f"/>
+</record_update>

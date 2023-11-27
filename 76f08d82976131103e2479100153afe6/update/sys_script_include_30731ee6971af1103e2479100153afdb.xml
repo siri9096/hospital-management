@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_970489_hospital.doctorRecord</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>doctorRecord</name>
+        <script><![CDATA[var doctorRecord = Class.create();
+doctorRecord.prototype = {
+    initialize: function() {
+    },
+	getdoctordetails:function(){
+		var doctors='';
+		var gr=new GlideRecord("sys_user_has_role");
+		gr.addQuery('role','7dda4dc1979671103e2479100153af8d');
+		gr.query();
+		while(gr.next()){
+			doctors=doctors +','+gr.user;
+			}
+		var result='sys_idIN'+doctors;
+		return result;
+	},
+
+    type: 'doctorRecord'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-07 09:55:50</sys_created_on>
+        <sys_id>30731ee6971af1103e2479100153afdb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>doctorRecord</sys_name>
+        <sys_package display_value="Hospital management" source="x_970489_hospital">76f08d82976131103e2479100153afe6</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Hospital management">76f08d82976131103e2479100153afe6</sys_scope>
+        <sys_update_name>sys_script_include_30731ee6971af1103e2479100153afdb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-07 09:55:50</sys_updated_on>
+    </sys_script_include>
+</record_update>

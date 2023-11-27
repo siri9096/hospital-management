@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="salary_month" label="Salary/Month" language="en" table="x_970489_hospital_doctor">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>salary_month</element>
+            <help/>
+            <hint/>
+            <label>Salary/Month</label>
+            <language>en</language>
+            <name>x_970489_hospital_doctor</name>
+            <plural>Salary/Months</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-31 10:17:13</sys_created_on>
+            <sys_id>6547d218975671103e2479100153af63</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Salary/Month</sys_name>
+            <sys_package display_value="Hospital management" source="x_970489_hospital">76f08d82976131103e2479100153afe6</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Hospital management">76f08d82976131103e2479100153afe6</sys_scope>
+            <sys_update_name>sys_documentation_x_970489_hospital_doctor_salary_month_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-31 10:17:13</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

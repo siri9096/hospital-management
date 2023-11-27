@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>false</active>
+        <api_name>x_970489_hospital.celleditGlide</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>celleditGlide</name>
+        <script><![CDATA[var celleditGlide = Class.create();
+celleditGlide.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+validateDates:function(){
+	var newDate=this.getParameter("syssparm_newValue");
+	var gr=new GlideRecord('incident');
+	gr.addQuery('sys-id',this.getParameter('syssparm_name'));
+	gr.query();
+	if(gr.next()){
+		if(newDate>gr.u_end_date){
+			return 'AbortAction';
+		}
+		else if(newDate<gr.u_end_date){
+			return 'submitAction';
+		}
+	}
+	
+},
+	
+	
+    type: 'celleditGlide'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-05 07:36:34</sys_created_on>
+        <sys_id>a30f1b3d975271103e2479100153afbe</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>celleditGlide</sys_name>
+        <sys_package display_value="Hospital management" source="x_970489_hospital">76f08d82976131103e2479100153afe6</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Hospital management">76f08d82976131103e2479100153afe6</sys_scope>
+        <sys_update_name>sys_script_include_a30f1b3d975271103e2479100153afbe</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-05 07:38:04</sys_updated_on>
+    </sys_script_include>
+</record_update>

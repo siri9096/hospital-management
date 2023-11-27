@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="pincode" table="x_970489_hospital_patient_record" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>pincode</element>
+            <name>x_970489_hospital_patient_record</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-22 11:41:44</sys_created_on>
+            <sys_id>445498699742b1103e2479100153af07</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>pincode</sys_name>
+            <sys_package display_value="Hospital management" source="x_970489_hospital">76f08d82976131103e2479100153afe6</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Hospital management">76f08d82976131103e2479100153afe6</sys_scope>
+            <sys_update_name>sys_choice_x_970489_hospital_patient_record_pincode</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-22 11:41:44</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>pincode</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>522007</label>
+            <language>en</language>
+            <name>x_970489_hospital_patient_record</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-22 11:41:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>482418299742b1103e2479100153afc4</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-22 11:42:26</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>pincode</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>522006</label>
+            <language>en</language>
+            <name>x_970489_hospital_patient_record</name>
+            <sequence>20</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-22 11:41:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9c545c699742b1103e2479100153afb2</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-22 11:42:30</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>pincode</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>522009</label>
+            <language>en</language>
+            <name>x_970489_hospital_patient_record</name>
+            <sequence>30</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-22 11:42:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e65418299742b1103e2479100153afc5</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-22 11:42:37</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

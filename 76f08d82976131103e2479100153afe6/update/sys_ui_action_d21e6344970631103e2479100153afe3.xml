@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name/>
+        <active>false</active>
+        <client>false</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+
+}]]></client_script_v2>
+        <comments/>
+        <condition>(current.active == true) &amp;&amp; gs.hasRole("itil")</condition>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style/>
+        <format_for_configurable_workspace>false</format_for_configurable_workspace>
+        <hint/>
+        <isolate_script>false</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <messages/>
+        <name>create incident</name>
+        <onclick/>
+        <order>100</order>
+        <script><![CDATA[var ritmTable = current.getTableName();
+var ritmSysID = current.getUniqueValue();
+var ritmNum = current.getValue('number');
+
+//SERVICE PORTAL: construct a link to the original RITM for inclusion in the customer comments of the incident.
+var spRITMLink = spLink(ritmTable,ritmSysID,ritmNum);
+
+//PLATFORM: construct a link to the parent RITM that itil users can use to navigate from the newly created incident.
+var platformRITMLink = platformLink(ritmTable,ritmSysID,ritmNum);
+
+/* Construct comments and work notes
+-----------------------------------------------------------------------------------------------------------------------*/
+var comments = '[code]Incident created from ' + spRITMLink + '<br><br>';
+
+comments += '<strong>Catalog Item Information:</strong><br>';
+comments += '<table>';
+
+//Query RITM variables, utilising the variable label and displayValue to build a table.
+var vars = current.variables.getElements();
+for (var i = 0; i < vars.length; i++){
+	var question = vars[i].getQuestion();
+	comments += '<tr><td>' + question.getLabel() + ':</td><td>' + question.getDisplayValue() + '</td></tr>';
+}
+comments += '</table>[/code]';
+
+//include customer comments from the RITM (-1 returns all journal entries for specified journal field)
+var ritmComments = current.comments.getJournalEntry(-1);
+
+if (JSUtil.notNil(ritmComments)) {
+
+	comments += '[code]<br><br><strong>Customer comments from ' + ritmNum + '</strong><br>[/code]';
+	comments += ritmComments;
+var vars = current.variables.getElements();
+for (var i = 0; i < vars.length; i++){
+	var question = vars[i].getQuestion();
+	gs.log(question.getLabel() + ":" + question.getValue());
+	comments += '<tr><td>' + question.getLabel() + ':</td><td>' + question.getDisplayValue() + '</td></tr>';
+}
+inc.cmdb_ci = current.cmdb_ci;
+inc.impact = current.impact;
+inc.urgency = current.urgency;
+inc.priority = current.priority;
+inc.company = current.company;
+inc.sys_domain = current.sys_domain;
+inc.comments = comments;
+inc.work_notes = workNotes;
+inc.parent = ritmSysID;
+
+var incSysID = inc.insert();
+
+var incTable = inc.getTableName();
+var incNum = inc.getValue('number');
+
+/* Copy attachments to Incident
+-----------------------------------------------------------------------------------------------------------------------*/
+
+//copy any RITM attachments to the newly created incident
+GlideSysAttachment.copy(ritmTable, ritmSysID, incTable, incSysID);
+
+/* Construct Incident Links
+-----------------------------------------------------------------------------------------------------------------------*/
+
+//SERVICE PORTAL: construct a link to the Incident for inclusion in the customer comments of the RITM.
+var spIncLink = spLink(incTable,incSysID,incNum);
+
+//PLATFORM: construct a link to the Incident that itil users can use to navigate from the parent RITM in platform.
+var platformIncLink = platformLink(incTable,incSysID,incNum);
+
+/* Update comments and work notes
+-----------------------------------------------------------------------------------------------------------------------*/
+current.comments = 'RITM converted to [code]' + spIncLink + '[/code]. Please use this reference from now on.';
+current.work_notes = 'Link to [code]' + platformIncLink + '[/code] from within ServiceNow.';
+
+/* Close RITM as "Closed Incomplete"
+-----------------------------------------------------------------------------------------------------------------------*/
+current.setValue('state', '4');
+current.setValue('stage', 'Request Cancelled');
+current.setValue('active', 'false');
+
+var mySysID = current.update();
+
+gs.addInfoMessage(gs.getMessage("Incident {0} created", incNum));
+
+action.setRedirectURL(inc);
+action.setReturnURL(current);
+
+/* Link builders
+-----------------------------------------------------------------------------------------------------------------------*/
+function spLink(table,sysID,num){
+
+	var link = '<a title="Service Portal Link" href="?id=ticket&table=' + table + '&sys_id=' + sysID + '">' + num + '</a>';
+
+	return link;
+}
+
+function platformLink(table,sysID,num){
+
+	var link = '<a title="Platform Link" href="' + table + '.do?sys_id=' + sysID + '">' + num + '</a>';
+
+	return link;
+}
+
+/* Locate the last assignment group
+-----------------------------------------------------------------------------------------------------------------------*/
+function getAssignmentGroup(ritmSysID) {
+	/* Return all active tasks relating to RITM ordered by newest task first i.e. last created ticket. */
+
+	var tskGrp = new GlideRecord('sc_task');
+	tskGrp.addActiveQuery();
+	tskGrp.addQuery('request_item', ritmSysID);
+	tskGrp.orderByDesc('number');
+	tskGrp.orderByDesc('sys_created_on');
+	tskGrp.query();
+
+	var assignmentGroup = '';
+
+	if(tskGrp.next()) {
+
+		//set the assignment group to the last generated active task's assignment group
+		assignmentGroup = tskGrp.getValue('assignment_group');
+	}
+	else {
+		/* Default to the Service Desk if a assignment group cannot be found */
+		//NOTE: This is a custom system property, containing the group sys_id for your service desk
+		//You will need to create it in sys_poperties if you want to fall back to your service desk
+
+		assignmentGroup = gs.getProperty('sc.service_desk');  
+	}
+	return assignmentGroup;
+}}]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-18 11:46:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d21e6344970631103e2479100153afe3</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>create incident</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Hospital management" source="x_970489_hospital">76f08d82976131103e2479100153afe6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hospital management">76f08d82976131103e2479100153afe6</sys_scope>
+        <sys_update_name>sys_ui_action_d21e6344970631103e2479100153afe3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-18 11:48:42</sys_updated_on>
+        <table>sc_req_item</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>

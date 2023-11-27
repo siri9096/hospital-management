@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>false</active>
+        <api_name>x_970489_hospital.demoTestClass</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>demoTestClass</name>
+        <script><![CDATA[var demoTestClass = Class.create();
+demoTestClass.prototype = {
+    initialize: function() {
+		
+	},
+		demoTestClass:function(a,b)
+		{
+			var d= a + b;
+			gs.addInfoMessage("the addition" + a + " + " + b + " is " + d);
+		},
+    
+
+    type: 'demoTestClass'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-06 07:19:28</sys_created_on>
+        <sys_id>48566c5a97de71103e2479100153af4a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>demoTestClass</sys_name>
+        <sys_package display_value="Hospital management" source="x_970489_hospital">76f08d82976131103e2479100153afe6</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Hospital management">76f08d82976131103e2479100153afe6</sys_scope>
+        <sys_update_name>sys_script_include_48566c5a97de71103e2479100153af4a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-06 10:46:59</sys_updated_on>
+    </sys_script_include>
+</record_update>

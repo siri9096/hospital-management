@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="60541a3f97f131103e2479100153afcb" sys_domain="global" table="x_970489_hospital_doctor" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-17 10:31:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>20541a3f97f131103e2479100153afce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_970489_hospital_doctor" name="x_970489_hospital_doctor" sys_domain="global" view="Default view">60541a3f97f131103e2479100153afcb</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_970489_hospital_doctor" sys_domain="global" view="Default view">22a655f3973131103e2479100153af8f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-17 10:31:39</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-17 10:31:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2c541a3f97f131103e2479100153afce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_970489_hospital_doctor" name="x_970489_hospital_doctor" sys_domain="global" view="Default view">60541a3f97f131103e2479100153afcb</sys_ui_form>
+            <sys_ui_section caption="WORK" display_value="WORK" name="x_970489_hospital_doctor" sys_domain="global" view="Default view">a4541a3f97f131103e2479100153afca</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-17 10:31:39</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-31 10:21:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e9389258975671103e2479100153af5d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_970489_hospital_doctor" name="x_970489_hospital_doctor" sys_domain="global" view="Default view">60541a3f97f131103e2479100153afcb</sys_ui_form>
+            <sys_ui_section caption="Additional Details" display_value="Additional Details" name="x_970489_hospital_doctor" sys_domain="global" view="Default view">69389258975671103e2479100153af59</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-31 10:21:19</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-31 10:21:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b5389258975671103e2479100153af61</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_970489_hospital_doctor" name="x_970489_hospital_doctor" sys_domain="global" view="Default view">60541a3f97f131103e2479100153afcb</sys_ui_form>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_970489_hospital_doctor" sys_domain="global" view="Default view">21389258975671103e2479100153af5b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-31 10:21:19</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_970489_hospital_doctor</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-17 10:31:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>60541a3f97f131103e2479100153afcb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_970489_hospital_doctor</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Hospital management" source="x_970489_hospital">76f08d82976131103e2479100153afe6</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Hospital management">76f08d82976131103e2479100153afe6</sys_scope>
+            <sys_update_name>sys_ui_form_sections_60541a3f97f131103e2479100153afcb</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-17 10:31:39</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

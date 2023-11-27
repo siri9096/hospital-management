@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="INSERT_OR_UPDATE">
+        <order>10</order>
+        <sc_cat_item display_value="patient record creation">2887878a970231103e2479100153af35</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-24 14:14:52</sys_created_on>
+        <sys_id>ba8a834e970231103e2479100153afb6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>patient Registration.patient record creation</sys_name>
+        <sys_package display_value="Hospital management" source="x_970489_hospital">76f08d82976131103e2479100153afe6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hospital management">76f08d82976131103e2479100153afe6</sys_scope>
+        <sys_update_name>io_set_item_ba8a834e970231103e2479100153afb6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-24 14:14:52</sys_updated_on>
+        <variable_set display_value="patient Registration">9f694708978231103e2479100153afec</variable_set>
+    </io_set_item>
+</record_update>

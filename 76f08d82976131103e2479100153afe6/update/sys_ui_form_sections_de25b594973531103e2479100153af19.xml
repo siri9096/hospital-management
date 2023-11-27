@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="de25b594973531103e2479100153af19" sys_domain="global" table="x_970489_hospital_admission_info" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-06 11:16:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>de25b594973531103e2479100153af1c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_970489_hospital_admission_info" name="x_970489_hospital_admission_info" sys_domain="global" view="Default view">de25b594973531103e2479100153af19</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_970489_hospital_admission_info" sys_domain="global" view="Default view">5bb47914973531103e2479100153afe6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-06 11:16:46</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-06 11:16:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>da25b594973531103e2479100153af1d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_970489_hospital_admission_info" name="x_970489_hospital_admission_info" sys_domain="global" view="Default view">de25b594973531103e2479100153af19</sys_ui_form>
+            <sys_ui_section caption="Mandatory Deatils" display_value="Mandatory Deatils" name="x_970489_hospital_admission_info" sys_domain="global" view="Default view">de25b594973531103e2479100153af18</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-06 11:16:46</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-30 06:41:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>023c1084971231103e2479100153af31</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_970489_hospital_admission_info" name="x_970489_hospital_admission_info" sys_domain="global" view="Default view">de25b594973531103e2479100153af19</sys_ui_form>
+            <sys_ui_section caption="Treatment Details" display_value="Treatment Details" name="x_970489_hospital_admission_info" sys_domain="global" view="Default view">4e3c1084971231103e2479100153af2c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-30 06:41:06</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-30 06:41:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>523c1084971231103e2479100153af5a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_970489_hospital_admission_info" name="x_970489_hospital_admission_info" sys_domain="global" view="Default view">de25b594973531103e2479100153af19</sys_ui_form>
+            <sys_ui_section caption="Treatment Process" display_value="Treatment Process" name="x_970489_hospital_admission_info" sys_domain="global" view="Default view">423c1084971231103e2479100153af2e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-30 06:41:06</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_970489_hospital_admission_info</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-10-06 11:16:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>de25b594973531103e2479100153af19</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_970489_hospital_admission_info</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Hospital management" source="x_970489_hospital">76f08d82976131103e2479100153afe6</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Hospital management">76f08d82976131103e2479100153afe6</sys_scope>
+            <sys_update_name>sys_ui_form_sections_de25b594973531103e2479100153af19</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-06 11:16:46</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

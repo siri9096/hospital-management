@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="title" table="x_970489_hospital_best_price" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>title</element>
+            <name>x_970489_hospital_best_price</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-11-01 10:38:20</sys_created_on>
+            <sys_id>ecb523e0979231103e2479100153afb1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>title</sys_name>
+            <sys_package display_value="Hospital management" source="x_970489_hospital">76f08d82976131103e2479100153afe6</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Hospital management">76f08d82976131103e2479100153afe6</sys_scope>
+            <sys_update_name>sys_choice_x_970489_hospital_best_price_title</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-11-01 10:38:20</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>title</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mr</label>
+            <language>en</language>
+            <name>x_970489_hospital_best_price</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-11-01 10:38:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>28b523e0979231103e2479100153afb1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-11-01 10:38:20</sys_updated_on>
+            <value>Mr</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>title</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Miss</label>
+            <language>en</language>
+            <name>x_970489_hospital_best_price</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-11-01 10:38:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>28b523e0979231103e2479100153afb3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-11-01 10:38:20</sys_updated_on>
+            <value>Miss</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
