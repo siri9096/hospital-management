@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="3e30aa24977131103e2479100153afa9" extends="x_970489_hospital_admission_info" label="Patient Record" max_length="40" name="x_970489_hospital_patient_record" type="collection">
+        <element display="true" label="Admission number" max_length="32" name="admission_number" reference="x_970489_hospital_admission_info" type="reference"/>
+        <element label="Appointment time" max_length="40" name="appointment_time" type="glide_date_time"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Assigned Team" max_length="40" name="assigned_team" reference="sys_user_group" type="reference"/>
+        <element label="Assigned To" max_length="40" name="assigned_to" reference="sys_user" reference_qual="javascript:new doctorRecord().getdoctordetails();" type="reference" use_reference_qualifier="advanced"/>
+        <element label="City" max_length="40" name="city" type="string"/>
+        <element choice="3" label="Condition" max_length="40" name="condition" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="New" sequence="10" value="1"/>
+                <element inactive_on_update="false" label="Started" sequence="20" value="2"/>
+                <element inactive_on_update="false" label="Under Progression" sequence="30" value="3"/>
+                <element inactive_on_update="false" label="Recovery" sequence="40" value="4"/>
+                <element inactive_on_update="false" label="Completed" sequence="50" value="5"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="Individual" max_length="32" name="individual" reference="sys_user" type="reference"/>
+        <element choice="3" label="Insurance" max_length="40" name="insurance" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="10" value="1"/>
+                <element inactive_on_update="false" label="No" sequence="20" value="2"/>
+            </choice>
+        </element>
+        <element label="Lab Reports" max_length="40" name="lab_reports" type="string"/>
+        <element choice="3" label="Lab tests" max_length="40" name="lab_tests" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="ECG" sequence="10" value="1"/>
+                <element inactive_on_update="false" label="EEG" sequence="20" value="2"/>
+                <element inactive_on_update="false" label="RBI Count" sequence="30" value="3"/>
+                <element inactive_on_update="false" label="Sugar Test" sequence="40" value="4"/>
+                <element inactive_on_update="false" label="X-Ray" sequence="50" value="5"/>
+            </choice>
+        </element>
+        <element label="Medications prescribed" max_length="40" name="medications_prescribed" type="string"/>
+        <element label="No" max_length="32" name="no" reference="x_970489_hospital_admission_info" type="reference"/>
+        <element label="Nominee name" max_length="40" name="nominee_name" type="string"/>
+        <element attributes="encode_utf8=false" calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Number" max_length="32" name="number" reference="x_970489_hospital_admission_info" type="reference"/>
+        <element choice="3" label="Pincode" max_length="40" name="pincode" type="integer">
+            <choice>
+                <element inactive_on_update="false" label="522007" sequence="10" value="1"/>
+                <element inactive_on_update="false" label="522006" sequence="20" value="2"/>
+                <element inactive_on_update="false" label="522009" sequence="30" value="3"/>
+            </choice>
+        </element>
+        <element choice="1" label="Regular patient" max_length="40" name="regular_patient" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="10" value="1"/>
+                <element inactive_on_update="false" label="No" sequence="20" value="2"/>
+            </choice>
+        </element>
+        <element choice="1" label="State" max_length="40" name="state" type="choice">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="Checked" sequence="0" value="3"/>
+                <element inactive_on_update="false" label="New" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Appointment Booked" sequence="1" value="2"/>
+                <element inactive="true" inactive_on_update="true" label="Reports" sequence="1" value="4"/>
+                <element inactive_on_update="false" label="InProgress" sequence="2" value="InProgress"/>
+                <element inactive_on_update="false" label="Critical" sequence="3" value="6"/>
+                <element inactive_on_update="false" label="Ready to discharge" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="Closed" sequence="5" value="Closed"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="admission_number"/>
+        </index>
+        <index name="index2">
+            <element name="individual"/>
+        </index>
+        <index name="index3">
+            <element name="no"/>
+        </index>
+        <index name="index4">
+            <element name="number"/>
+        </index>
+    </element>
+</database>

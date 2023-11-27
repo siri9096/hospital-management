@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-29 08:00:57</sys_created_on>
+        <sys_id>e535c58697a131103e2479100153af86</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_970489_hospital_hospital_management.x_970489_hospital.hospital_management_user</sys_name>
+        <sys_package display_value="Hospital management" source="x_970489_hospital">76f08d82976131103e2479100153afe6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hospital management">76f08d82976131103e2479100153afe6</sys_scope>
+        <sys_security_acl display_value="x_970489_hospital_hospital_management">ed35c58697a131103e2479100153af83</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_e535c58697a131103e2479100153af86</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-29 08:00:57</sys_updated_on>
+        <sys_user_role display_value="x_970489_hospital.hospital_management_user" name="x_970489_hospital.hospital_management_user">dd35c10697a131103e2479100153afcb</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Hospital management">76f08d82976131103e2479100153afe6</application>
+        <file_path/>
+        <instance_id>07f8d4cbdb3058d0601a11f8489619df</instance_id>
+        <instance_name>dev104384</instance_name>
+        <name>sys_security_acl_role_e535c58697a131103e2479100153af86</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-09-29 08:00:57</sys_created_on><sys_id>e535c58697a131103e2479100153af86</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_970489_hospital_hospital_management.x_970489_hospital.hospital_management_user</sys_name><sys_package display_value="Hospital management" source="x_970489_hospital">76f08d82976131103e2479100153afe6</sys_package><sys_policy/><sys_scope display_value="Hospital management">76f08d82976131103e2479100153afe6</sys_scope><sys_security_acl display_value="x_970489_hospital_hospital_management">ed35c58697a131103e2479100153af83</sys_security_acl><sys_update_name>sys_security_acl_role_e535c58697a131103e2479100153af86</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-09-29 08:00:57</sys_updated_on><sys_user_role display_value="x_970489_hospital.hospital_management_user" name="x_970489_hospital.hospital_management_user">dd35c10697a131103e2479100153afcb</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-1758468726</payload_hash>
+        <record_name>x_970489_hospital_hospital_management.x_970489_hospital.hospital_management_user</record_name>
+        <reverted_from/>
+        <source>b2f08d82976131103e2479100153afe8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-29 08:00:57</sys_created_on>
+        <sys_id>6935c58697a131103e2479100153af88</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18adff481fe0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-29 08:00:57</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>a135c586e1a13110275690da844cb588</update_guid>
+        <update_guid_history>a135c586e1a13110275690da844cb588:-1758468726</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_970489_hospital_hospital_management.x_970489_hospital.hospital_management_user">79bf99a5977131103e2479100153affa</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-10 06:55:28</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>1c9acc528815473984e2383dabe424d9</sys_id>
+        <sys_metadata>e535c58697a131103e2479100153af86</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_970489_hospital_hospital_management.x_970489_hospital.hospital_management_user</sys_name>
+        <sys_package display_value="Hospital management" source="x_970489_hospital">76f08d82976131103e2479100153afe6</sys_package>
+        <sys_parent display_value="">ed35c58697a131103e2479100153af83</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Hospital management">76f08d82976131103e2479100153afe6</sys_scope>
+        <sys_scope_delete display_value="">03cce9b28b71482498a43e0932f9ee51</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_e535c58697a131103e2479100153af86</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_e535c58697a131103e2479100153af86">6935c58697a131103e2479100153af88</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-10 06:55:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

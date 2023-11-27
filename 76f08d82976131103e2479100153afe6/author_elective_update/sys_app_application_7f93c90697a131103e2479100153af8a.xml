@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="DELETE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>Admin</name>
+        <order>100</order>
+        <roles>x_970489_hospital.hos_user</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-29 07:54:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7f93c90697a131103e2479100153af8a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Admin</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Hospital management" source="x_970489_hospital">76f08d82976131103e2479100153afe6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hospital management">76f08d82976131103e2479100153afe6</sys_scope>
+        <sys_update_name>sys_app_application_7f93c90697a131103e2479100153af8a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-29 07:54:00</sys_updated_on>
+        <title>Admin</title>
+        <view_name/>
+    </sys_app_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Hospital management">76f08d82976131103e2479100153afe6</application>
+        <file_path/>
+        <instance_id>07f8d4cbdb3058d0601a11f8489619df</instance_id>
+        <instance_name>dev104384</instance_name>
+        <name>sys_app_application_7f93c90697a131103e2479100153af8a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description/><device_type>browser</device_type><hint/><name>Admin</name><order>100</order><roles>x_970489_hospital.hos_user</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-09-29 07:54:00</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>7f93c90697a131103e2479100153af8a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Admin</sys_name><sys_overrides/><sys_package display_value="Hospital management" source="x_970489_hospital">76f08d82976131103e2479100153afe6</sys_package><sys_policy/><sys_scope display_value="Hospital management">76f08d82976131103e2479100153afe6</sys_scope><sys_update_name>sys_app_application_7f93c90697a131103e2479100153af8a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-09-29 07:54:00</sys_updated_on><title>Admin</title><view_name/></sys_app_application></record_update>]]></payload>
+        <payload_hash>283090889</payload_hash>
+        <record_name>Admin</record_name>
+        <reverted_from/>
+        <source>b2f08d82976131103e2479100153afe8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-29 07:54:00</sys_created_on>
+        <sys_id>ff93c90697a131103e2479100153af8d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18adfee258d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-29 07:54:00</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>3b93c906a4a1311094fdf13f14b4578d</update_guid>
+        <update_guid_history>3b93c906a4a1311094fdf13f14b4578d:283090889</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Admin">3c45498697a131103e2479100153af05</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-29 08:01:10</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_application">sys_app_application</sys_db_object>
+        <sys_id>43ca7d4921c64a46a00aa10508ff3579</sys_id>
+        <sys_metadata>7f93c90697a131103e2479100153af8a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Admin</sys_name>
+        <sys_package display_value="Hospital management" source="x_970489_hospital">76f08d82976131103e2479100153afe6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Hospital management">76f08d82976131103e2479100153afe6</sys_scope>
+        <sys_scope_delete display_value="">03cce9b28b71482498a43e0932f9ee51</sys_scope_delete>
+        <sys_update_name>sys_app_application_7f93c90697a131103e2479100153af8a</sys_update_name>
+        <sys_update_version display_value="sys_app_application_7f93c90697a131103e2479100153af8a">ff93c90697a131103e2479100153af8d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-29 08:01:10</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

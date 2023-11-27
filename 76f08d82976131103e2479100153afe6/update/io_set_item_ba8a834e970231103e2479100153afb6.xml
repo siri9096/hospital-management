@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
     <io_set_item action="INSERT_OR_UPDATE">
         <order>10</order>
-        <sc_cat_item display_value="patient record creation">2887878a970231103e2479100153af35</sc_cat_item>
+        <sc_cat_item display_value="patient registration">2887878a970231103e2479100153af35</sc_cat_item>
         <sys_class_name>io_set_item</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-24 14:14:52</sys_created_on>

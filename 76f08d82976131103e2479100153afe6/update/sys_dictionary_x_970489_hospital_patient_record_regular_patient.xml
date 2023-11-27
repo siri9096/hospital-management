@@ -52,7 +52,6 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-07 09:12:36</sys_created_on>
-        <sys_id>63216e24977131103e2479100153afd0</sys_id>
         <sys_name>Regular patient</sys_name>
         <sys_package display_value="Hospital management" source="x_970489_hospital">76f08d82976131103e2479100153afe6</sys_package>
         <sys_policy/>

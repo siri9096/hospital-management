@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="b2dd762097f131103e2479100153afd7" label="Hospital Team" max_length="40" name="x_970489_hospital_hospital_staff" type="collection">
+        <element label="Deapartment Id" max_length="40" name="deapartment_id" type="integer"/>
+        <element label="Department Name" max_length="40" name="department_name" type="string"/>
+        <element label="Description" max_length="40" name="description" type="string"/>
+        <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

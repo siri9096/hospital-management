@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Record for Registration of patients">e99a06c5973231103e2479100153afe1</sc_cat_item>
+        <sc_category display_value="Software">2809952237b1300054b6a3549dbe5dd4</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 13:48:36</sys_created_on>
+        <sys_id>e19a4209973231103e2479100153af7c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Software.Record for Registration of patients</sys_name>
+        <sys_package display_value="Hospital management" source="x_970489_hospital">76f08d82976131103e2479100153afe6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hospital management">76f08d82976131103e2479100153afe6</sys_scope>
+        <sys_update_name>sc_cat_item_category_e19a4209973231103e2479100153af7c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 13:48:36</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Hospital management">76f08d82976131103e2479100153afe6</application>
+        <file_path/>
+        <instance_id>07f8d4cbdb3058d0601a11f8489619df</instance_id>
+        <instance_name>dev104384</instance_name>
+        <name>sc_cat_item_category_e19a4209973231103e2479100153af7c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="DELETE"><sc_cat_item display_value="Record for Registration of patients">e99a06c5973231103e2479100153afe1</sc_cat_item><sc_category display_value="Software">2809952237b1300054b6a3549dbe5dd4</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-11-27 13:48:36</sys_created_on><sys_id>e19a4209973231103e2479100153af7c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Software.Record for Registration of patients</sys_name><sys_package display_value="Hospital management" source="x_970489_hospital">76f08d82976131103e2479100153afe6</sys_package><sys_policy/><sys_scope display_value="Hospital management">76f08d82976131103e2479100153afe6</sys_scope><sys_update_name>sc_cat_item_category_e19a4209973231103e2479100153af7c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-11-27 13:48:36</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>-478384238</payload_hash>
+        <record_name>Software.Record for Registration of patients</record_name>
+        <reverted_from/>
+        <source>2a8b0649973231103e2479100153af5e</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-11-27 13:52:47</sys_created_on>
+        <sys_id>a68b0649973231103e2479100153afc8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c110dd0280000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-11-27 13:52:47</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>ea8b06494d323110eb337143c9f59bc7</update_guid>
+        <update_guid_history>ea8b06494d323110eb337143c9f59bc7:-478384238,2d9a420989323110d47183a0686a787e:1285112198</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Software.Record for Registration of patients">268b0649973231103e2479100153afd1</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-11-27 13:52:47</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>584cd03077f744428158d3ab7da65019</sys_id>
+        <sys_metadata>e19a4209973231103e2479100153af7c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Software.Record for Registration of patients</sys_name>
+        <sys_package display_value="Hospital management" source="x_970489_hospital">76f08d82976131103e2479100153afe6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Hospital management">76f08d82976131103e2479100153afe6</sys_scope>
+        <sys_scope_delete display_value="">03cce9b28b71482498a43e0932f9ee51</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_e19a4209973231103e2479100153af7c</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_e19a4209973231103e2479100153af7c">a68b0649973231103e2479100153afc8</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-11-27 13:52:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

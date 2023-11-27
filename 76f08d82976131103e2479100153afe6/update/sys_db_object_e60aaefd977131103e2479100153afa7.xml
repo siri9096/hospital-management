@@ -31,7 +31,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-10-11 07:00:54</sys_updated_on>
         <update_access>false</update_access>
-        <user_role display_value="x_970489_hospital.location_user" name="x_970489_hospital.location_user">838aaefd977131103e2479100153aff1</user_role>
+        <user_role/>
         <ws_access>true</ws_access>
     </sys_db_object>
 </record_update>

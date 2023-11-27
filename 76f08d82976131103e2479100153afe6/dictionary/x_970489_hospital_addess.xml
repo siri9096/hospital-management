@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="cdb92afd977131103e2479100153afcf" label="addess" max_length="40" name="x_970489_hospital_addess" type="collection">
+        <element label="Address" max_length="40" name="address" type="string"/>
+        <element default="javascript:getNextObjNumberPadded();" display="true" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="add Number" max_length="40" name="add_number" type="string" use_dynamic_default="true"/>
+        <element label="name" max_length="40" name="name" type="string"/>
+        <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

@@ -49,7 +49,7 @@
         <push_message_only>false</push_message_only>
         <recipient_fields>assigned_team,assigned_to</recipient_fields>
         <recipient_groups/>
-        <recipient_users/>
+        <recipient_users>6816f79cc0a8016401c5a33be04be441</recipient_users>
         <reply_to/>
         <send_self>true</send_self>
         <sms_alternate/>
@@ -62,15 +62,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f6e38aa797f531103e2479100153af23</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>patient record creation</sys_name>
         <sys_overrides/>
         <sys_package display_value="Hospital management" source="x_970489_hospital">76f08d82976131103e2479100153afe6</sys_package>
         <sys_policy/>
         <sys_scope display_value="Hospital management">76f08d82976131103e2479100153afe6</sys_scope>
         <sys_update_name>sysevent_email_action_f6e38aa797f531103e2479100153af23</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-16 14:49:03</sys_updated_on>
+        <sys_updated_by>Akhil</sys_updated_by>
+        <sys_updated_on>2023-10-16 14:58:05</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>

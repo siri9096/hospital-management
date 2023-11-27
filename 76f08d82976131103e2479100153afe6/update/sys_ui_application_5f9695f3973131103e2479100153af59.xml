@@ -4,7 +4,7 @@
         <hint/>
         <name>Doctor </name>
         <order/>
-        <roles>x_970489_hospital.doctor_user</roles>
+        <roles/>
         <sys_class_name>sys_ui_application</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-17 06:02:03</sys_created_on>

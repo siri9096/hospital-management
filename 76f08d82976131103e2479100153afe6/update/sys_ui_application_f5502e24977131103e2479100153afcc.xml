@@ -4,7 +4,7 @@
         <hint/>
         <name>Patient Record</name>
         <order/>
-        <roles>x_970489_hospital.patient_record_user</roles>
+        <roles/>
         <sys_class_name>sys_ui_application</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-07 09:03:55</sys_created_on>

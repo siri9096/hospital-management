@@ -47,7 +47,6 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-11-07 13:00:43</sys_created_on>
-        <sys_id>c9dffaee979af1103e2479100153afbd</sys_id>
         <sys_name>State</sys_name>
         <sys_package display_value="Hospital management" source="x_970489_hospital">76f08d82976131103e2479100153afe6</sys_package>
         <sys_policy/>

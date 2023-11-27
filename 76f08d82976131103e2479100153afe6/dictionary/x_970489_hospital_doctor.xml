@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="a4f559b3973131103e2479100153af90" label="Doctor Record" max_length="40" name="x_970489_hospital_doctor" type="collection">
+        <element label="Active cases" max_length="40" name="active_cases" type="integer"/>
+        <element label="Address" max_length="40" name="address" type="string"/>
+        <element label="Age" max_length="40" name="age" type="integer"/>
+        <element label="Conatct no" max_length="40" name="conatct_no" type="integer"/>
+        <element label="Emergency cases" max_length="40" name="emergency_cases" type="integer"/>
+        <element choice="1" label="Important" max_length="40" name="important" type="choice">
+            <choice/>
+        </element>
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element label="No of cases allocated" max_length="40" name="no_of_cases_allocated" type="integer"/>
+        <element label="No of leaves Present" max_length="40" name="no_of_leaves_present" type="integer"/>
+        <element label="Other Jobs" max_length="40" name="other_jobs" type="string"/>
+        <element label="Previous Experience" max_length="40" name="previous_experience" type="string"/>
+        <element label="Salary/day" max_length="40" name="salary_day" type="integer"/>
+        <element label="Salary/Month" max_length="40" name="salary_month" type="integer"/>
+        <element choice="1" label="Shift Timings" max_length="40" name="shift_timings" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Afternoon" value="2"/>
+                <element inactive_on_update="false" label="Morning" value="1"/>
+                <element inactive_on_update="false" label="Night" value="3"/>
+            </choice>
+        </element>
+        <element choice="3" label="Specialization" max_length="40" name="specialization" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Artho" value="2"/>
+                <element inactive_on_update="false" label="General Physician" value="4"/>
+                <element inactive_on_update="false" label="Gynic" value="3"/>
+                <element inactive_on_update="false" label="Nuro" value="1"/>
+            </choice>
+        </element>
+        <element label="Surgeries performed" max_length="40" name="surgeries_performed" type="integer"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Total leaves" max_length="40" name="total_leaves" type="integer"/>
+        <element label="Total working hours/week" max_length="40" name="total_working_hours_week" type="integer"/>
+        <element label="working hours /day" max_length="40" name="working_hours_day" type="integer"/>
+        <element label="Years of Experience" max_length="40" name="years_of_experience" type="integer"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

@@ -52,7 +52,6 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-11 07:46:11</sys_created_on>
-        <sys_id>56e4f6b997b131103e2479100153af56</sys_id>
         <sys_name>Number</sys_name>
         <sys_package display_value="Hospital management" source="x_970489_hospital">76f08d82976131103e2479100153afe6</sys_package>
         <sys_policy/>

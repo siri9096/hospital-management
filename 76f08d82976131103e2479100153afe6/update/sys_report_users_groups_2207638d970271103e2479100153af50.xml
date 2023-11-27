@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups">
     <sys_report_users_groups action="INSERT_OR_UPDATE">
         <group_id/>
-        <report_id display_value="">6e07638d970271103e2479100153af4e</report_id>
+        <report_id display_value="Number of nuro cases">6e07638d970271103e2479100153af4e</report_id>
         <sys_class_name>sys_report_users_groups</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-21 13:45:28</sys_created_on>

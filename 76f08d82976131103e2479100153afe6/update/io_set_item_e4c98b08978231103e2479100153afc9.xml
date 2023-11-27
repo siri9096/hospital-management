@@ -14,6 +14,6 @@
         <sys_update_name>io_set_item_e4c98b08978231103e2479100153afc9</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-10-18 09:03:36</sys_updated_on>
-        <variable_set display_value="patient name">9f694708978231103e2479100153afec</variable_set>
+        <variable_set display_value="patient Registration">9f694708978231103e2479100153afec</variable_set>
     </io_set_item>
 </record_update>

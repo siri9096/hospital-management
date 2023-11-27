@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="DELETE">
+        <category display_value="" name="x_970489_hospital_patient">x_970489_hospital_patient</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>PR</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-29 10:33:19</sys_created_on>
+        <sys_id>b5086d86972531103e2479100153af07</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PR</sys_name>
+        <sys_package display_value="Hospital management" source="x_970489_hospital">76f08d82976131103e2479100153afe6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hospital management">76f08d82976131103e2479100153afe6</sys_scope>
+        <sys_update_name>sys_number_b5086d86972531103e2479100153af07</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-29 10:33:19</sys_updated_on>
+    </sys_number>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Hospital management">76f08d82976131103e2479100153afe6</application>
+        <file_path/>
+        <instance_id>07f8d4cbdb3058d0601a11f8489619df</instance_id>
+        <instance_name>dev104384</instance_name>
+        <name>sys_number_b5086d86972531103e2479100153af07</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number"><sys_number action="INSERT_OR_UPDATE"><category display_value="" name="x_970489_hospital_patient">x_970489_hospital_patient</category><maximum_digits>7</maximum_digits><number>1000</number><prefix>PR</prefix><sys_class_name>sys_number</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-09-29 10:33:19</sys_created_on><sys_id>b5086d86972531103e2479100153af07</sys_id><sys_mod_count>0</sys_mod_count><sys_name>PR</sys_name><sys_package display_value="Hospital management" source="x_970489_hospital">76f08d82976131103e2479100153afe6</sys_package><sys_policy/><sys_scope display_value="Hospital management">76f08d82976131103e2479100153afe6</sys_scope><sys_update_name>sys_number_b5086d86972531103e2479100153af07</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-09-29 10:33:19</sys_updated_on></sys_number></record_update>]]></payload>
+        <payload_hash>-721487232</payload_hash>
+        <record_name>PR</record_name>
+        <reverted_from/>
+        <source>b2f08d82976131103e2479100153afe8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-29 10:33:20</sys_created_on>
+        <sys_id>a9186d86972531103e2479100153afe8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ae08002df0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-29 10:33:20</sys_updated_on>
+        <type>Number</type>
+        <update_guid>e1186d8699253110f6f7e1c282aa10e8</update_guid>
+        <update_guid_history>e1186d8699253110f6f7e1c282aa10e8:-721487232</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-07 09:03:10</sys_created_on>
+        <sys_db_object display_value="" name="sys_number">sys_number</sys_db_object>
+        <sys_id>36c91da3f5c64ce0956bd52f2e8d2900</sys_id>
+        <sys_metadata>b5086d86972531103e2479100153af07</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PR</sys_name>
+        <sys_package display_value="Hospital management" source="x_970489_hospital">76f08d82976131103e2479100153afe6</sys_package>
+        <sys_parent display_value="">d824054697a131103e2479100153af44</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Hospital management">76f08d82976131103e2479100153afe6</sys_scope>
+        <sys_scope_delete display_value="">03cce9b28b71482498a43e0932f9ee51</sys_scope_delete>
+        <sys_update_name>sys_number_b5086d86972531103e2479100153af07</sys_update_name>
+        <sys_update_version display_value="sys_number_b5086d86972531103e2479100153af07">a9186d86972531103e2479100153afe8</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-07 09:03:10</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

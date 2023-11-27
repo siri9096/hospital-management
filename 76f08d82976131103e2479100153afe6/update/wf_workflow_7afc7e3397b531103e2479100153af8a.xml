@@ -33,12 +33,12 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-17 13:29:17</sys_created_on>
         <sys_id>45c9fe7f977531103e2479100153afcb</sys_id>
-        <sys_mod_count>69</sys_mod_count>
+        <sys_mod_count>70</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-17 13:46:48</sys_updated_on>
+        <sys_updated_on>2023-10-24 14:58:21</sys_updated_on>
         <table>x_970489_hospital_patient_record</table>
         <timezone/>
-        <validated>false</validated>
+        <validated>true</validated>
         <workflow display_value="Notify the requestor about the requestor status">7afc7e3397b531103e2479100153af8a</workflow>
     </wf_workflow_version>
     <wf_workflow action="INSERT_OR_UPDATE">

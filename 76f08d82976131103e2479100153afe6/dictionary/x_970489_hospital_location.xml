@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="e60aaefd977131103e2479100153afa7" extends="x_970489_hospital_addess" label="location" max_length="40" name="x_970489_hospital_location" type="collection">
+        <element label="city" max_length="40" name="city" type="string"/>
+        <element label="Num" max_length="32" name="num" reference="x_970489_hospital_addess" type="reference"/>
+        <index name="index">
+            <element name="num"/>
+        </index>
+    </element>
+</database>

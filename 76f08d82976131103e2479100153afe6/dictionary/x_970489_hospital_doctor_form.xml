@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="4e140ebb97b131103e2479100153af71" label="Doctor Form" max_length="40" name="x_970489_hospital_doctor_form" type="collection">
+        <element label="Admission no" max_length="32" name="admission_no" reference="x_970489_hospital_admission_info" type="reference"/>
+        <element label="Lab report" max_length="40" name="lab_report" type="string"/>
+        <element choice="3" label="Lab tests" max_length="40" name="lab_tests" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Blood Count" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="E.C.G" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="E.E.G" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="R.B.C" sequence="4" value="4"/>
+                <element inactive_on_update="false" label="Samples" sequence="5" value="5"/>
+                <element inactive_on_update="false" label="Sugar Test" sequence="6" value="6"/>
+                <element inactive_on_update="false" label="X-ray" sequence="7" value="7"/>
+            </choice>
+        </element>
+        <element label="Medications" max_length="40" name="medications" type="string"/>
+        <element label="Patient name" max_length="40" name="patient_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="State" max_length="40" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="New" sequence="0" value="New"/>
+                <element inactive_on_update="false" label="InProgress" sequence="1" value="InProgress"/>
+                <element inactive_on_update="false" label="Critical" sequence="2" value="Critical"/>
+                <element inactive_on_update="false" label="Ready to Discharge" sequence="3" value="Ready to Discharge"/>
+                <element inactive_on_update="false" label="Closed" sequence="4" value="Closed"/>
+            </choice>
+        </element>
+        <element label="Symptoms" max_length="40" name="symptoms" type="string"/>
+        <element label="Treatment details" max_length="80" name="treatment_details" type="workflow"/>
+        <element attributes="edge_encryption_enabled=true" label="Treatment progress" max_length="4000" name="treatment_progress" type="string"/>
+        <index name="index">
+            <element name="admission_no"/>
+        </index>
+    </element>
+</database>

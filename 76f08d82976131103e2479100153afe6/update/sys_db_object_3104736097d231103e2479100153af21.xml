@@ -13,7 +13,7 @@
         <label>Reliance digital</label>
         <live_feed_enabled>false</live_feed_enabled>
         <name>x_970489_hospital_reliance_digital</name>
-        <number_ref display_value="Reliance">5536e265971231103e2479100153af8a</number_ref>
+        <number_ref display_value="R">5536e265971231103e2479100153af8a</number_ref>
         <provider_class/>
         <read_access>true</read_access>
         <scriptable_table>false</scriptable_table>

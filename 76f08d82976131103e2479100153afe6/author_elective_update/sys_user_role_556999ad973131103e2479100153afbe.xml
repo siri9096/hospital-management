@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="DELETE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_970489_hospital.technician_team_user</name>
+        <requires_subscription>-1</requires_subscription>
+        <scoped_admin>false</scoped_admin>
+        <suffix>technician_team_user</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-10 06:27:51</sys_created_on>
+        <sys_id>556999ad973131103e2479100153afbe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_970489_hospital.technician_team_user</sys_name>
+        <sys_package display_value="Hospital management" source="x_970489_hospital">76f08d82976131103e2479100153afe6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hospital management">76f08d82976131103e2479100153afe6</sys_scope>
+        <sys_update_name>sys_user_role_556999ad973131103e2479100153afbe</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-10 06:27:51</sys_updated_on>
+    </sys_user_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Hospital management">76f08d82976131103e2479100153afe6</application>
+        <file_path/>
+        <instance_id>07f8d4cbdb3058d0601a11f8489619df</instance_id>
+        <instance_name>dev104384</instance_name>
+        <name>sys_user_role_556999ad973131103e2479100153afbe</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description/><elevated_privilege>false</elevated_privilege><grantable>true</grantable><includes_roles/><name>x_970489_hospital.technician_team_user</name><requires_subscription>-1</requires_subscription><scoped_admin>false</scoped_admin><suffix>technician_team_user</suffix><sys_class_name>sys_user_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-10-10 06:27:51</sys_created_on><sys_id>556999ad973131103e2479100153afbe</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_970489_hospital.technician_team_user</sys_name><sys_package display_value="Hospital management" source="x_970489_hospital">76f08d82976131103e2479100153afe6</sys_package><sys_policy/><sys_scope display_value="Hospital management">76f08d82976131103e2479100153afe6</sys_scope><sys_update_name>sys_user_role_556999ad973131103e2479100153afbe</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-10-10 06:27:51</sys_updated_on></sys_user_role></record_update>]]></payload>
+        <payload_hash>482311433</payload_hash>
+        <record_name>x_970489_hospital.technician_team_user</record_name>
+        <reverted_from/>
+        <source>b2f08d82976131103e2479100153afe8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-10 06:27:51</sys_created_on>
+        <sys_id>5569d9ed973131103e2479100153af53</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18b184539270000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-10 06:27:51</sys_updated_on>
+        <type>Role</type>
+        <update_guid>d96999ada1313110f5f39f7e14ce8ac1</update_guid>
+        <update_guid_history>d96999ada1313110f5f39f7e14ce8ac1:482311433</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_970489_hospital.technician_team_user">5aca89c1979671103e2479100153aff2</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-02 12:38:28</sys_created_on>
+        <sys_db_object display_value="" name="sys_user_role">sys_user_role</sys_db_object>
+        <sys_id>0919ef02fa5f41d4a384f778f5d7e931</sys_id>
+        <sys_metadata>556999ad973131103e2479100153afbe</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_970489_hospital.technician_team_user</sys_name>
+        <sys_package display_value="Hospital management" source="x_970489_hospital">76f08d82976131103e2479100153afe6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Hospital management">76f08d82976131103e2479100153afe6</sys_scope>
+        <sys_scope_delete display_value="">03cce9b28b71482498a43e0932f9ee51</sys_scope_delete>
+        <sys_update_name>sys_user_role_556999ad973131103e2479100153afbe</sys_update_name>
+        <sys_update_version display_value="sys_user_role_556999ad973131103e2479100153afbe">5569d9ed973131103e2479100153af53</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-02 12:38:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

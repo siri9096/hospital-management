@@ -7,7 +7,7 @@
         <hint/>
         <name>Technician department</name>
         <order>100</order>
-        <roles>x_970489_hospital.technician_department_user</roles>
+        <roles/>
         <sys_class_name>sys_app_application</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-10 06:57:51</sys_created_on>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="live_feed=true" audit="true" db_object_id="3fa12076d4a3211095d7c105f1bf43c3" defaultsort="-1" extends="task" label="Problem" max_length="40" name="problem" text_index="true" type="collection">
+        <element attributes="encode_utf8=false" label="Problem Owner" max_length="32" name="x_970489_hospital_problem_owner" reference="sys_user" reference_qual="javascript:new prbFunctions().getprbmanagers();" type="reference" use_reference_qualifier="advanced"/>
+    </element>
+</database>

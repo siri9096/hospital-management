@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="afaa87a8971231103e2479100153afbd" label="Best Price" max_length="40" name="x_970489_hospital_best_price" type="collection">
+        <element label="Comments" max_length="40" name="comments" type="string"/>
+        <element label="Email" max_length="40" name="email" type="string"/>
+        <element label="Mobile Number" max_length="40" name="mobile_number" type="string"/>
+        <element label="Name" max_length="32" name="name" reference="sys_user" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="1" label="Title" max_length="40" name="title" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Mr" sequence="0" value="Mr"/>
+                <element inactive_on_update="false" label="Miss" sequence="1" value="Miss"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="name"/>
+        </index>
+    </element>
+</database>

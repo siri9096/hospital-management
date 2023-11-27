@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="c00f6510973531103e2479100153af59" label="Admission details" max_length="40" name="x_970489_hospital_admission_info" type="collection">
+        <element label="Address" max_length="40" name="address" type="string"/>
+        <element default="javascript:getNextObjNumberPadded();" display="true" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="Num" max_length="40" name="admission_no" type="string" use_dynamic_default="true"/>
+        <element label="Age" max_length="40" name="age" type="integer"/>
+        <element label="Contact no" max_length="40" name="contact_no" type="integer"/>
+        <element label="Cost/Day" max_length="40" name="cost_day" type="integer"/>
+        <element label="Date-of -Join" max_length="40" name="date_of_join" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Details" max_length="4000" name="details" type="string"/>
+        <element label="Discharge Date" max_length="40" name="discharge_date" type="glide_date_time"/>
+        <element choice="3" label="Emergency" max_length="40" name="emergency" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="No" value="2"/>
+                <element inactive_on_update="false" label="Yes" value="1"/>
+            </choice>
+        </element>
+        <element label="No of Days Stay" max_length="40" name="no_of_days_stay" type="integer"/>
+        <element label="Patient Name" max_length="40" name="patient_name" type="string"/>
+        <element label="Reason to join" max_length="40" name="reason_to_join" type="string"/>
+        <element label="Room No" max_length="40" name="room_no" type="integer"/>
+        <element choice="3" label="Sex" max_length="40" name="sex" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="F" value="2"/>
+                <element inactive_on_update="false" label="M" value="1"/>
+            </choice>
+        </element>
+        <element label="Symptoms" max_length="40" name="symptoms" type="string"/>
+        <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
+        <element label="Treatment Progress" max_length="40" name="treatment_progress" type="string"/>
+        <element choice="1" label="Visiting Hours" max_length="40" name="visiting_hours" type="choice">
+            <choice/>
+        </element>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

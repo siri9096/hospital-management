@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list action="DELETE" parent="" relationship="" sys_domain="global" table="x_970489_hospital_patient" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_name</element>
+            <list_id display_value="x_970489_hospital_patient" element="NULL" name="x_970489_hospital_patient" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">6bf8990a97a131103e2479100153afcd</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-29 09:27:23</sys_created_on>
+            <sys_id>2bf8990a97a131103e2479100153afcf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-29 09:27:23</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>closedby</element>
+            <list_id display_value="x_970489_hospital_patient" element="NULL" name="x_970489_hospital_patient" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">6bf8990a97a131103e2479100153afcd</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-29 09:27:23</sys_created_on>
+            <sys_id>aff8990a97a131103e2479100153afcf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-29 09:27:23</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_craetedby</element>
+            <list_id display_value="x_970489_hospital_patient" element="NULL" name="x_970489_hospital_patient" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">6bf8990a97a131103e2479100153afcd</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-29 09:27:23</sys_created_on>
+            <sys_id>23f8990a97a131103e2479100153afd0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-29 09:27:23</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_glide_date_2</element>
+            <list_id display_value="x_970489_hospital_patient" element="NULL" name="x_970489_hospital_patient" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">6bf8990a97a131103e2479100153afcd</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-29 09:27:23</sys_created_on>
+            <sys_id>a3f8990a97a131103e2479100153afd0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-29 09:27:23</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_state</element>
+            <list_id display_value="x_970489_hospital_patient" element="NULL" name="x_970489_hospital_patient" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">6bf8990a97a131103e2479100153afcd</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-29 09:27:23</sys_created_on>
+            <sys_id>27f8990a97a131103e2479100153afd0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-29 09:27:23</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_970489_hospital_patient</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-29 09:27:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6bf8990a97a131103e2479100153afcd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_970489_hospital_patient</sys_name>
+            <sys_package display_value="Hospital management" source="x_970489_hospital">76f08d82976131103e2479100153afe6</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Hospital management">76f08d82976131103e2479100153afe6</sys_scope>
+            <sys_update_name>sys_ui_list_x_970489_hospital_patient_null</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-29 09:27:23</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Hospital management">76f08d82976131103e2479100153afe6</application>
+        <file_path/>
+        <instance_id>07f8d4cbdb3058d0601a11f8489619df</instance_id>
+        <instance_name>dev104384</instance_name>
+        <name>sys_ui_list_x_970489_hospital_patient_null</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_list parent="" relationship="" sys_domain="global" table="x_970489_hospital_patient" version="2" view=""><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_name</element><list_id display_value="x_970489_hospital_patient" element="NULL" name="x_970489_hospital_patient" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">6bf8990a97a131103e2479100153afcd</list_id><max_value>false</max_value><min_value>false</min_value><position>0</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2023-09-29 09:27:23</sys_created_on><sys_id>2bf8990a97a131103e2479100153afcf</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-09-29 09:27:23</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>closedby</element><list_id display_value="x_970489_hospital_patient" element="NULL" name="x_970489_hospital_patient" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">6bf8990a97a131103e2479100153afcd</list_id><max_value>false</max_value><min_value>false</min_value><position>1</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2023-09-29 09:27:23</sys_created_on><sys_id>aff8990a97a131103e2479100153afcf</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-09-29 09:27:23</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_craetedby</element><list_id display_value="x_970489_hospital_patient" element="NULL" name="x_970489_hospital_patient" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">6bf8990a97a131103e2479100153afcd</list_id><max_value>false</max_value><min_value>false</min_value><position>2</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2023-09-29 09:27:23</sys_created_on><sys_id>23f8990a97a131103e2479100153afd0</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-09-29 09:27:23</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_glide_date_2</element><list_id display_value="x_970489_hospital_patient" element="NULL" name="x_970489_hospital_patient" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">6bf8990a97a131103e2479100153afcd</list_id><max_value>false</max_value><min_value>false</min_value><position>3</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2023-09-29 09:27:23</sys_created_on><sys_id>a3f8990a97a131103e2479100153afd0</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-09-29 09:27:23</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>u_state</element><list_id display_value="x_970489_hospital_patient" element="NULL" name="x_970489_hospital_patient" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">6bf8990a97a131103e2479100153afcd</list_id><max_value>false</max_value><min_value>false</min_value><position>4</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2023-09-29 09:27:23</sys_created_on><sys_id>27f8990a97a131103e2479100153afd0</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-09-29 09:27:23</sys_updated_on></sys_ui_list_element><sys_ui_list action="INSERT_OR_UPDATE"><average_value>false</average_value><element/><max_value>false</max_value><min_value>false</min_value><name>x_970489_hospital_patient</name><parent/><position/><relationship/><sum>false</sum><sys_class_name>sys_ui_list</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-09-29 09:27:23</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>6bf8990a97a131103e2479100153afcd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_970489_hospital_patient</sys_name><sys_package display_value="Hospital management" source="x_970489_hospital">76f08d82976131103e2479100153afe6</sys_package><sys_policy/><sys_scope display_value="Hospital management">76f08d82976131103e2479100153afe6</sys_scope><sys_update_name>sys_ui_list_x_970489_hospital_patient_null</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-09-29 09:27:23</sys_updated_on><sys_user/><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_list></sys_ui_list></record_update>]]></payload>
+        <payload_hash>-1741894320</payload_hash>
+        <record_name>patient Record</record_name>
+        <reverted_from/>
+        <source>b2f08d82976131103e2479100153afe8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-29 09:27:23</sys_created_on>
+        <sys_id>e3f8990a97a131103e2479100153afd2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ae043a2010000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-29 09:27:23</sys_updated_on>
+        <type>List Layout</type>
+        <update_guid>a3f8990ad2a13110b2fefb81d47d46d2</update_guid>
+        <update_guid_history>a3f8990ad2a13110b2fefb81d47d46d2:-1741894320</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-07 09:03:09</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_list">sys_ui_list</sys_db_object>
+        <sys_id>364a78889c1444098e0900f1b47a9eb1</sys_id>
+        <sys_metadata>6bf8990a97a131103e2479100153afcd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_970489_hospital_patient</sys_name>
+        <sys_package display_value="Hospital management" source="x_970489_hospital">76f08d82976131103e2479100153afe6</sys_package>
+        <sys_parent display_value="">d824054697a131103e2479100153af44</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Hospital management">76f08d82976131103e2479100153afe6</sys_scope>
+        <sys_scope_delete display_value="">03cce9b28b71482498a43e0932f9ee51</sys_scope_delete>
+        <sys_update_name>sys_ui_list_x_970489_hospital_patient_null</sys_update_name>
+        <sys_update_version display_value="sys_ui_list_x_970489_hospital_patient_null">e3f8990a97a131103e2479100153afd2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-07 09:03:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
